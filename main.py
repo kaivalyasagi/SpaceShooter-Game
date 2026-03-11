@@ -6,19 +6,19 @@ pygame.init()
 pygame.font.init()
 
 #Load images
-player_ship = pygame.image.load("B:\\Space Shooter\\space shooter\\images\\player.png")
+player_ship = pygame.image.load("images/player.png")
 
-enemy_red = pygame.image.load("B:\\Space Shooter\\space shooter\\images\\shipred.png")
-enemy_yellow = pygame.image.load("B:\\Space Shooter\\space shooter\\images\\yellowship.png")
-enemy_green = pygame.image.load("B:\\Space Shooter\\space shooter\\images\\greenship.png")
+enemy_red = pygame.image.load("images/shipred.png")
+enemy_yellow = pygame.image.load("images/yellowship.png")
+enemy_green = pygame.image.load("images/greenship.png")
 
-red_laser = pygame.image.load("B:\\Space Shooter\\space shooter\\images\\pixel_laser_red.png")
-green_laser = pygame.image.load("B:\\Space Shooter\\space shooter\\images\\pixel_laser_green.png")
-yellow_laser = pygame.image.load("B:\\Space Shooter\\space shooter\\images\\pixel_laser_yellow.png")
-player_laser = pygame.image.load("B:\\Space Shooter\\space shooter\\images\\pixel_laser_blue.png")
+red_laser = pygame.image.load("images/pixel_laser_red.png")
+green_laser = pygame.image.load("images/pixel_laser_green.png")
+yellow_laser = pygame.image.load("images/pixel_laser_yellow.png")
+player_laser = pygame.image.load("images/pixel_laser_blue.png")
 
 # Display setup
-back = pygame.image.load("B:\\Space Shooter\\space shooter\\images\\space.jpg") 
+back = pygame.image.load("images/space.jpg") 
 display_width, display_height = 1440, 860
 display_screen = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption("Space Shooter!")
@@ -245,3 +245,4 @@ def menu():
     pygame.quit()
 
 menu()
+
